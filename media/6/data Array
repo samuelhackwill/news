@@ -1,0 +1,228 @@
+// TO INSERT THAT STUFF IN THE DB, CONNECT TO THE MONGO DB SHELL 
+// 		docker exec -it mongodb mongo <name of app>
+// DEFINE NEW VARIABLE
+// 		insert = <array bellow>
+// INSERT ALL OBJECTS IN DB
+// 		insert.forEach(function(myDoc){db.revenus.insert({"legal":myDoc.legal , "social": myDoc.social , "mars": myDoc.mars, "avril": myDoc.avril, "mai": myDoc.mai})})
+
+
+// DATA BELLOW
+
+
+[
+	{
+		"_id" : "oLsQ9QSme7JjGf5fZ",
+		"legal" : "intermittent fr",
+		"social" : "chômage les trois mois",
+		"mars" : 1463,
+		"avril" : 1564,
+		"mai" : 1513
+	},
+	{
+		"_id" : "Pvd6ToYpiTo8YiQpk",
+		"legal" : "Nul",
+		"social" : "0",
+		"mars" : "0",
+		"avril" : "0",
+		"mai" : "0",
+		"timestamp" : ISODate("2020-11-13T11:51:48.265Z")
+	},
+	{
+		"_id" : "icwJkk6rmAip9WQLM",
+		"legal" : "Nul",
+		"social" : "0",
+		"mars" : "0",
+		"avril" : "0",
+		"mai" : "0",
+		"timestamp" : ISODate("2020-11-13T16:37:20.135Z")
+	},
+	{
+		"_id" : "SRgnd6YzJquBRWYMv",
+		"legal" : "autoentrepreneuse",
+		"social" : "aide exceptionnelle du gouvernement",
+		"mars" : "1180",
+		"avril" : "1180",
+		"mai" : "1180",
+		"timestamp" : ISODate("2020-11-13T16:58:22.032Z")
+	},
+	{
+		"_id" : "zQCP6extKjbmtXqgx",
+		"legal" : "Intermittent",
+		"social" : "Alloc chômage (en complément des salaires)",
+		"mars" : "1840",
+		"avril" : "1710",
+		"mai" : "2065",
+		"timestamp" : ISODate("2020-11-13T17:17:14.437Z")
+	},
+	{
+		"_id" : "KmKeyfMYuuczNRATC",
+		"legal" : "CDD",
+		"social" : "\"Service public\"",
+		"mars" : "1500",
+		"avril" : "1500",
+		"mai" : "1500",
+		"timestamp" : ISODate("2020-11-13T17:33:58.211Z")
+	},
+	{
+		"_id" : "baJuDRiXj3J9PN9Wx",
+		"legal" : "Service civique ",
+		"social" : "Apl ",
+		"mars" : "780",
+		"avril" : "780",
+		"mai" : "780",
+		"timestamp" : ISODate("2020-11-13T18:16:02.290Z")
+	},
+	{
+		"_id" : "pLH9AHdB32e8b5eF9",
+		"legal" : "Je comprends pas",
+		"social" : "comment on remplit",
+		"mars" : "On cumule tous les revenus",
+		"avril" : "que ce soit auto-entrepreneur artiste auteur et fond de solidarité",
+		"mai" : "dans ces cases là? Alice et Sonia (bon: surtout Sonia)",
+		"timestamp" : ISODate("2020-11-13T18:51:31.397Z")
+	},
+	{
+		"_id" : "Jysc5Qhh4cmeDYTBk",
+		"legal" : "oui",
+		"social" : "voilà ",
+		"mars" : "c'est ça.",
+		"avril" : "(revenus cumulés)",
+		"mai" : "samuel",
+		"timestamp" : ISODate("2020-11-13T19:38:10.147Z")
+	},
+	{
+		"_id" : "gdry4uDMv6cd3xMGq",
+		"legal" : "artiste-auteur et auto-entrepreneur (option action culturelle plein pot))",
+		"social" : "fond de solidarité Covid",
+		"mars" : "2160",
+		"avril" : "1750",
+		"mai" : "1350 ",
+		"timestamp" : ISODate("2020-11-13T20:24:09.155Z")
+	},
+	{
+		"_id" : "eQbHfRzMwMnqPEgyH",
+		"legal" : "Flouzi revenu de marsss ",
+		"social" : "Chômduu retroactif ",
+		"mars" : "2000",
+		"avril" : "1600",
+		"mai" : "1600",
+		"timestamp" : ISODate("2020-11-13T22:55:45.634Z")
+	},
+	{
+		"_id" : "8HjHnzfmJKwCbbhRM",
+		"legal" : "8==========",
+		"social" : "=======méga====",
+		"mars" : "======",
+		"avril" : "==chibre==",
+		"mai" : "====D",
+		"timestamp" : ISODate("2020-11-13T23:50:56.420Z")
+	},
+	{
+		"_id" : "x6QyMfP4o6frD2bRZ",
+		"legal" : "Cdi",
+		"social" : "Teletracnare",
+		"mars" : "2222",
+		"avril" : "2222",
+		"mai" : "2222",
+		"timestamp" : ISODate("2020-11-13T23:52:23.984Z")
+	},
+	{
+		"_id" : "ShnFBiHgFizL85qaB",
+		"legal" : "Cdi",
+		"social" : "",
+		"mars" : "1577",
+		"avril" : "1581",
+		"mai" : "1607",
+		"timestamp" : ISODate("2020-11-14T10:26:22.967Z")
+	},
+	{
+		"_id" : "uHuuRfXniGXegFFTA",
+		"legal" : "non applicable",
+		"social" : "aucune",
+		"mars" : "1000",
+		"avril" : "1000",
+		"mai" : "1000",
+		"timestamp" : ISODate("2020-11-14T13:46:29.514Z")
+	},
+	{
+		"_id" : "eBjz2mndnPGKA8Dea",
+		"legal" : "employée organisme culturel",
+		"social" : "aucune",
+		"mars" : "2400 $CAN",
+		"avril" : "2400 $CAN",
+		"mai" : "2400 $CAN",
+		"timestamp" : ISODate("2020-11-14T14:00:11.823Z")
+	},
+	{
+		"_id" : "fM4C9icDzngCGTWBg",
+		"legal" : "proffession libérale",
+		"social" : "fond de solidarité",
+		"mars" : "1500",
+		"avril" : "1400",
+		"mai" : "0",
+		"timestamp" : ISODate("2020-11-14T15:38:25.937Z")
+	},
+	{
+		"_id" : "iLLbwhCvgFoTL9WCz",
+		"legal" : "",
+		"social" : "",
+		"mars" : "",
+		"avril" : "",
+		"mai" : "",
+		"timestamp" : ISODate("2020-11-14T21:43:42.980Z")
+	},
+	{
+		"_id" : "ouZSjsy5AKWfLEYgg",
+		"legal" : "Micro",
+		"social" : "Fond de sol",
+		"mars" : "1500",
+		"avril" : "1500",
+		"mai" : "1500",
+		"timestamp" : ISODate("2020-11-15T12:02:35.306Z")
+	},
+	{
+		"_id" : "vd4meAeLKGgt7tM3F",
+		"legal" : "CDD ",
+		"social" : "chômage complet",
+		"mars" : "1482",
+		"avril" : "1067,94",
+		"mai" : "1385",
+		"timestamp" : ISODate("2020-11-16T09:28:49.066Z")
+	},
+	{
+		"_id" : "5cvWwgrsmKk8zZeEP",
+		"legal" : "Artiste auteure",
+		"social" : "Fond de sol",
+		"mars" : "600",
+		"avril" : "0",
+		"mai" : "0",
+		"timestamp" : ISODate("2020-11-16T16:54:32.677Z")
+	},
+	{
+		"_id" : "WgQmiSziAocYieMHu",
+		"legal" : "auto entrepreneuse",
+		"social" : "CAF (rsa/prime d'activité) révision annuelle des droits de la CAF reçu en avril donc jackpot ! ",
+		"mars" : "0",
+		"avril" : "4167.48",
+		"mai" : "1554,80",
+		"timestamp" : ISODate("2020-11-17T08:24:23.888Z")
+	},
+	{
+		"_id" : "tYbRCXjA9zwMG9YWi",
+		"legal" : "CDD",
+		"social" : "chômage partiel",
+		"mars" : "80",
+		"avril" : "100",
+		"mai" : "90",
+		"timestamp" : ISODate("2020-11-24T21:59:08.498Z")
+	},
+	{
+		"_id" : "bA7KnDQwy6Cv2YPKK",
+		"legal" : "CDI",
+		"social" : "resté en poste (donc chômage applicable mais pas utilisé - si utilisé ça aurait été à 80% de mon salaire)",
+		"mars" : "2200(ish - flemme) poundes",
+		"avril" : "2200(ish - flemme) poundes",
+		"mai" : "2200(ish - flemme) poundes",
+		"timestamp" : ISODate("2020-11-26T21:32:37.394Z")
+	}
+]
